@@ -1,0 +1,6 @@
+.secondchild-container {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100px;
+}
