@@ -1,8 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+body {
+  margin: 0px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 20px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Paytone One", sans-serif;
+  color: rgb(112, 200, 216);
+}
+
 .children-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 600px;
+  width: 1200px;
   background-color: thistle;
+}
+
+.child-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 500px;
+  margin: 20px;
+  background-color: lightblue;
+}
+
+.grand-child__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  font-family: "Paytone One", sans-serif;
+  font-size: 30px;
+  color: rgb(112, 200, 216);
+  cursor: pointer;
+  background-color: paleturquoise;
 }

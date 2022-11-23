@@ -1,8 +1,6 @@
 import React from "react";
-import "./page.css";
+
 const FirstOfSecondChild = () => {
-  return (
-    <div className="first-of-second-child__container"> FirstOfSecondChild </div>
-  );
+  return <div className="grand-child__container"> Child 2.1 </div>;
 };
 export default FirstOfSecondChild;
