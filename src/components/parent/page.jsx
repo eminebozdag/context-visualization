@@ -12,7 +12,7 @@ const Parent = () => {
         current message: <span>{message}</span>
       </p>
       <div className="children-container">
-        <MessageContext.Provider value={{ message, setMessage }}>
+        <MessageContext.Provider value={{ setMessage }}>
           <FirstChild />
         </MessageContext.Provider>
         <SecondChild />
