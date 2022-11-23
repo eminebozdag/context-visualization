@@ -3,11 +3,12 @@ import MessageContext from "../../../../context/message.context";
 const SecondOfFirstChild = () => {
   const { setMessage } = useContext(MessageContext);
 
-  const changeMessage = () => {
+  const handleOnClick = () => {
     setMessage("Changed by Child 1.2");
   };
+
   return (
-    <div className="grand-child__container" onClick={changeMessage}>
+    <div className="grand-child__container" onClick={handleOnClick}>
       Child 1.2
     </div>
   );
