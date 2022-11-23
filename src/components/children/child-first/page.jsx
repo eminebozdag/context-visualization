@@ -5,7 +5,7 @@ import "./page.css";
 
 const FirstChild = () => {
   return (
-    <div className="firstchild-container">
+    <div className="first-child__container">
       <FirstOfFirstChild />
       <SecondOfFirstChild />
     </div>

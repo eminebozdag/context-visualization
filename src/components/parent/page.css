@@ -1,6 +1,8 @@
-.parent-container {
+.children-container {
   display: flex;
-  flex-direction: column;
-  height: 200px;
-  background-color: aqua;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: thistle;
 }

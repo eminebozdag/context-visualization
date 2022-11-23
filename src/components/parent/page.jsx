@@ -4,7 +4,7 @@ import SecondChild from "../children/child-second/page";
 import "./page.css";
 const Parent = () => {
   return (
-    <div className="parent-container">
+    <div className="children-container">
       <FirstChild />
       <SecondChild />
     </div>
